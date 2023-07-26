@@ -29,6 +29,7 @@ body {
 	margin-bottom: 0;
 }
 
+
 .nav li {
 	padding-inline: 10px;
 }
@@ -126,7 +127,6 @@ body {
 .gallery-item {
 	position: absolute;
 	width: 100%;
-	height: auto;
 	object-fit: cover;
 	padding: .5em;
 }
