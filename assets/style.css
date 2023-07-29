@@ -208,6 +208,11 @@ body {
 #contact .container {
 	display: flex;
 }
+
+.contact-information {
+	margin-left: 210px;
+	margin-top: 50px;
+}
 .picture.right::before {
 	content: ' ';
 	background-color: #BEB45A;

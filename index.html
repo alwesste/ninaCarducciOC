@@ -13,7 +13,7 @@
 	dans les portraits, mariages, concerts et séances pour entreprises, elle crée des souvenirs 
 	durables avec un regard artistique. Contactez-la dès maintenant pour des images authentiques 
 	et émouvantes qui transmettront l'émotion de vos moments précieux.">
-
+	<meta name="geo.placename" content="Bordeaux">
 	<meta charset="UTF-8">
 	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
@@ -165,18 +165,28 @@
 					<textarea name="message" id="message" cols="30" rows="10"></textarea>
 					<input type="submit" value="Envoyer"/>
 				</form>
-				<div>
-					<p>
-						Mon adresse : 68 avenue Alsace-Lorraine, 33200 Bordeaux. <br>
-						Mon numéro de téléphone : 05 56 67 78 89.</br>
-						Je réponds au téléphone du lundi au vendredi de 10h à 19h.
-					</p>
-				</div>
 			</div>
+
+			
+
 			<div class="picture right">
 				<img src="./assets/images/camera-small.webp" alt="camera vintage sur fond noir"/>
 			</div>
 		</div>
+
+		<div class="contact-information">
+			<div itemscope itemtype="http://schema.org/PostalAddress">
+				<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>,
+				<span itemprop="postalCode">33200</span>
+				<span itemprop="addressLocality">Bordeaux</span>
+			</div>
+
+			<div itemscope itemtype="http://schema.org/LocalBusiness">
+				<span itemprop="telephone">05 56 67 78 89</span>	
+  				<span itemprop="openingHours" content="Mo-Fr 10:00-19:00">Je réponds au téléphone du lundi au vendredi de 10h à 19h.</span>
+			</div>
+		</div>
+
 	</div>
 </body>
 </html>
